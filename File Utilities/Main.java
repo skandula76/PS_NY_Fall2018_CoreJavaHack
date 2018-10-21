@@ -13,7 +13,9 @@ public class Main {
 
       for (int i=0 ; i< results.size(); i++) {
         System.out.println("Company: " + 
-                              results.get(i).CompanyName +
+                              results.get(i).Ticker +
+                            " -- DateTime Quoted: " +
+                              results.get(i).DateTimeEST +
                             " -- Price: " +
                               results.get(i).Price);
       }
