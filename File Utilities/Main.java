@@ -20,6 +20,4 @@ public class Main {
                               results.get(i).Price);
       }
 	}
-
-
 }
