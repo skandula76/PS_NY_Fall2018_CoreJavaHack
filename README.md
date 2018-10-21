@@ -1,4 +1,4 @@
-# PS_NY_Fall2018_CoreJavaHack
+# Publicis.Sapient Fall2018 Core Java Hackathon
 
 
 Problem Statement
