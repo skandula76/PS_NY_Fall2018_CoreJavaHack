@@ -1,0 +1,53 @@
+RowNum,DateTimeEST,Sector,Ticker,CompanyName,UnitsofHolding,Currency,Price
+1,10/8/2018 7:00 PM,/global/nam/fin,BAC,Bank of America Corp,2076,USD,34.46
+2,10/8/2018 7:00 PM,/global/nam/fin,C,Citigroup N.A.,1929,USD,74.24
+3,10/8/2018 7:00 PM,/global/nam/fin,JPM,J.P. Morgan Chase Co,1948,USD,144.33
+4,10/8/2018 7:00 PM,/global/nam/fin,GS,Goldman Sachs Inc.,2391,USD,226.76
+5,10/8/2018 7:00 PM,/global/nam/fin,MS,Morgan Stanley Inc.,2415,USD,51.95
+6,10/8/2018 7:00 PM,/global/nam/fin,PNC,PNC Financial,1652,USD,130.93
+7,10/8/2018 7:00 PM,/global/nam/fin,WFC,Wells Fargo Bank N.A.,1824,USD,59.74
+8,10/8/2018 7:00 PM,/global/nam/fin,FITB,Fifth Third Bank,1565,USD,30.74
+9,10/8/2018 7:00 PM,/global/nam/fin,TD,Toronto Dominion Bank,2359,USD,63.28
+10,10/8/2018 7:00 PM,/global/nam/tech,AMZN,Amazon,1588,USD,1905.04
+11,10/8/2018 7:00 PM,/global/nam/tech,FB ,Facebook,1720,USD,165.21
+12,10/8/2018 7:00 PM,/global/nam/tech,GOOGL,Alphabet Inc,2250,USD,1229.78
+13,10/8/2018 7:00 PM,/global/nam/tech,AAPL,Apple Inc.,2005,USD,246.97
+14,10/8/2018 7:00 PM,/global/nam/tech,NFLX,Netfix,1828,USD,388.36
+15,10/8/2018 7:00 PM,/global/nam/tech,TWTR,Twitter,1873,USD,29.56
+16,10/8/2018 7:00 PM,/global/nam/tech,MSFT,Microsoft,1793,USD,128.38
+17,10/8/2018 7:00 PM,/global/nam/tech,CSCO,Cisco,2332,USD,49.83
+18,10/8/2018 7:00 PM,/global/nam/re,AMT,American Tower,1818,USD,142.52
+19,10/8/2018 7:00 PM,/global/nam/re,SPG,Simon Property Group,1792,USD,161.56
+20,10/8/2018 7:00 PM,/global/nam/re,CCI,Crown Castle International,2209,USD,140.23
+21,10/8/2018 7:00 PM,/global/nam/re,PSA,Public Storage,1623,USD,226.52
+22,10/8/2018 7:00 PM,/global/nam/re,EQIX,Equinix,2272,USD,430.05
+23,10/8/2018 7:00 PM,/global/nam/re,WY,Weyerhaeuser,1648,USD,30.55
+24,10/8/2018 7:00 PM,/global/emea/cons,ADDYY,Adidas AG,2257,EUR,123.2
+25,10/8/2018 7:00 PM,/global/emea/cons,UN,Unilever NV,1758,EUR,61.25
+26,10/8/2018 7:00 PM,/global/emea/cons,NSRGY,Nestle SA,2152,EUR,94.62
+27,10/8/2018 7:00 PM,/global/emea/cons,DANOY,Danone SA,2109,EUR,22.31
+28,10/8/2018 7:00 PM,/global/emea/cons,HENKY,Henkel AG,1918,EUR,105.38
+29,10/8/2018 7:00 PM,/global/emea/cons,HINKY,Heineken NV,2471,EUR,54.28
+30,10/8/2018 7:00 PM,/global/emea/fin,SAN,Spanish bank Santander,2233,EUR,5.33
+31,10/8/2018 7:00 PM,/global/emea/fin,ABNRY,ABN Amro,1718,EUR,15.18
+32,10/8/2018 7:00 PM,/global/emea/fin,EBKDY,Austrian Erste Bank,2304,EUR,24.05
+33,10/8/2018 7:00 PM,/global/emea/fin,LYG,Lloyds,2233,EUR,6.18
+34,10/8/2018 7:00 PM,/global/emea/fin,CRARY,Credit Agricole,1554,EUR,7.07
+35,10/8/2018 7:00 PM,/global/emea/tech,ASML,ASML Holding,2443,EUR,185.98
+36,10/8/2018 7:00 PM,/global/emea/tech,DTE,Deutsche Telekom,2005,EUR,18.38
+37,10/8/2018 7:00 PM,/global/emea/tech,NOKIA,Nokia,1651,EUR,6.04
+38,10/8/2018 7:00 PM,/global/emea/tech,SAP,SAP SE,1798,EUR,124.98
+39,10/8/2018 7:00 PM,/global/emea/tech,TEF,Telefónica SA,1507,EUR,10.05
+40,10/8/2018 7:00 PM,/global/apac/cons,KRX.005930,Samsung Electronics Co. Ltd.,1801,KRW,45071.19
+41,10/8/2018 7:00 PM,/global/apac/cons,2319.Hong Kong,China Mengniu Dairy Co. Ltd.,1756,HKD,23.41
+42,10/8/2018 7:00 PM,/global/apac/cons,601933.China,Yonghui Superstores Co. Ltd.,1747,CNY,9.31
+43,10/8/2018 7:00 PM,/global/apac/cons,600519.China,Kweichow Moutai Co. Ltd.,2432,CNY,707.87
+44,10/8/2018 7:00 PM,/global/apac/tech,Hong Kong.0700,Tencent,2017,HKD,316.46
+45,10/8/2018 7:00 PM,/global/apac/tech,Hong Kong.2018,AAC Technologies Holdings Inc.,2328,HKD,82.34
+46,10/8/2018 7:00 PM,/global/apac/tech,Hong Kong.2382,Sunny Optical Technology Group Co. Ltd.,1816,HKD,78.31
+47,10/8/2018 7:00 PM,/global/apac/tech,Taiwan.2330,Taiwan Taiex,2089,NTD,250.31
+48,10/8/2018 7:00 PM,/global/apac/tech,Taiwan.3008,LARGAN Precision Co. Ltd.,2311,NTD,3529.53
+49,10/8/2018 7:00 PM,/global/apac/mat,0914.Hong Kong,Anhui Conch Cement,1758,HKD,52.4
+50,10/8/2018 7:00 PM,/global/apac/mat,0857.Hong Kong,PetroChina Co. Ltd.,1514,HKD,10.11
+51,10/8/2018 7:00 PM,/global/apac/mat,H0338.Hong Kong,SINOPEC Shanghai Petrochemical Co. Ltd.,2182,HKD,5.51
+52,10/8/2018 7:00 PM,/global/apac/mat,Tokyo.5541,Pacific Metals Co. Ltd.,1722,JPY,4199.78

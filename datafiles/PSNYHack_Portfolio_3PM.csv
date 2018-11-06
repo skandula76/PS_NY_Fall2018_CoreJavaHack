@@ -1,0 +1,53 @@
+RowNum,DateTimeEST,Sector,Ticker,CompanyName,UnitsofHolding,Currency,Price
+1,10/9/2018 3:00 PM,/global/nam/fin,BAC,Bank of America Corp,2076,USD,34.35
+2,10/9/2018 3:00 PM,/global/nam/fin,C,Citigroup N.A.,1929,USD,73.37
+3,10/9/2018 3:00 PM,/global/nam/fin,JPM,J.P. Morgan Chase Co,1948,USD,144.54
+4,10/9/2018 3:00 PM,/global/nam/fin,GS,Goldman Sachs Inc.,2391,USD,226.14
+5,10/9/2018 3:00 PM,/global/nam/fin,MS,Morgan Stanley Inc.,2415,USD,49.13
+6,10/9/2018 3:00 PM,/global/nam/fin,PNC,PNC Financial,1652,USD,132.54
+7,10/9/2018 3:00 PM,/global/nam/fin,WFC,Wells Fargo Bank N.A.,1824,USD,59.65
+8,10/9/2018 3:00 PM,/global/nam/fin,FITB,Fifth Third Bank,1565,USD,28.45
+9,10/9/2018 3:00 PM,/global/nam/fin,TD,Toronto Dominion Bank,2359,USD,64.11
+10,10/9/2018 3:00 PM,/global/nam/tech,AMZN,Amazon,1588,USD,1891.59
+11,10/9/2018 3:00 PM,/global/nam/tech,FB ,Facebook,1720,USD,164.87
+12,10/9/2018 3:00 PM,/global/nam/tech,GOOGL,Alphabet Inc,2250,USD,1201.86
+13,10/9/2018 3:00 PM,/global/nam/tech,AAPL,Apple Inc.,2005,USD,227.09
+14,10/9/2018 3:00 PM,/global/nam/tech,NFLX,Netfix,1828,USD,373.43
+15,10/9/2018 3:00 PM,/global/nam/tech,TWTR,Twitter,1873,USD,32.13
+16,10/9/2018 3:00 PM,/global/nam/tech,MSFT,Microsoft,1793,USD,128.8
+17,10/9/2018 3:00 PM,/global/nam/tech,CSCO,Cisco,2332,USD,52.01
+18,10/9/2018 3:00 PM,/global/nam/re,AMT,American Tower,1818,USD,148.83
+19,10/9/2018 3:00 PM,/global/nam/re,SPG,Simon Property Group,1792,USD,162.92
+20,10/9/2018 3:00 PM,/global/nam/re,CCI,Crown Castle International,2209,USD,145.84
+21,10/9/2018 3:00 PM,/global/nam/re,PSA,Public Storage,1623,USD,226.97
+22,10/9/2018 3:00 PM,/global/nam/re,EQIX,Equinix,2272,USD,430.34
+23,10/9/2018 3:00 PM,/global/nam/re,WY,Weyerhaeuser,1648,USD,33.56
+24,10/9/2018 3:00 PM,/global/emea/cons,ADDYY,Adidas AG,2257,EUR,121.74
+25,10/9/2018 3:00 PM,/global/emea/cons,UN,Unilever NV,1758,EUR,64.5
+26,10/9/2018 3:00 PM,/global/emea/cons,NSRGY,Nestle SA,2152,EUR,81.06
+27,10/9/2018 3:00 PM,/global/emea/cons,DANOY,Danone SA,2109,EUR,16.05
+28,10/9/2018 3:00 PM,/global/emea/cons,HENKY,Henkel AG,1918,EUR,109.53
+29,10/9/2018 3:00 PM,/global/emea/cons,HINKY,Heineken NV,2471,EUR,53.26
+30,10/9/2018 3:00 PM,/global/emea/fin,SAN,Spanish bank Santander,2233,EUR,5.94
+31,10/9/2018 3:00 PM,/global/emea/fin,ABNRY,ABN Amro,1718,EUR,15.66
+32,10/9/2018 3:00 PM,/global/emea/fin,EBKDY,Austrian Erste Bank,2304,EUR,22.92
+33,10/9/2018 3:00 PM,/global/emea/fin,LYG,Lloyds,2233,EUR,7.18
+34,10/9/2018 3:00 PM,/global/emea/fin,CRARY,Credit Agricole,1554,EUR,8.6
+35,10/9/2018 3:00 PM,/global/emea/tech,ASML,ASML Holding,2443,EUR,192.14
+36,10/9/2018 3:00 PM,/global/emea/tech,DTE,Deutsche Telekom,2005,EUR,18.97
+37,10/9/2018 3:00 PM,/global/emea/tech,NOKIA,Nokia,1651,EUR,6.6
+38,10/9/2018 3:00 PM,/global/emea/tech,SAP,SAP SE,1798,EUR,124.08
+39,10/9/2018 3:00 PM,/global/emea/tech,TEF,Telefónica SA,1507,EUR,10.14
+40,10/9/2018 3:00 PM,/global/apac/cons,KRX.005930,Samsung Electronics Co. Ltd.,1801,KRW,45226.99
+41,10/9/2018 3:00 PM,/global/apac/cons,2319.Hong Kong,China Mengniu Dairy Co. Ltd.,1756,HKD,30.85
+42,10/9/2018 3:00 PM,/global/apac/cons,601933.China,Yonghui Superstores Co. Ltd.,1747,CNY,9
+43,10/9/2018 3:00 PM,/global/apac/cons,600519.China,Kweichow Moutai Co. Ltd.,2432,CNY,715.15
+44,10/9/2018 3:00 PM,/global/apac/tech,Hong Kong.0700,Tencent,2017,HKD,324.54
+45,10/9/2018 3:00 PM,/global/apac/tech,Hong Kong.2018,AAC Technologies Holdings Inc.,2328,HKD,82.36
+46,10/9/2018 3:00 PM,/global/apac/tech,Hong Kong.2382,Sunny Optical Technology Group Co. Ltd.,1816,HKD,77.89
+47,10/9/2018 3:00 PM,/global/apac/tech,Taiwan.2330,Taiwan Taiex,2089,NTD,254.7
+48,10/9/2018 3:00 PM,/global/apac/tech,Taiwan.3008,LARGAN Precision Co. Ltd.,2311,NTD,3598.66
+49,10/9/2018 3:00 PM,/global/apac/mat,0914.Hong Kong,Anhui Conch Cement,1758,HKD,52.61
+50,10/9/2018 3:00 PM,/global/apac/mat,0857.Hong Kong,PetroChina Co. Ltd.,1514,HKD,7.04
+51,10/9/2018 3:00 PM,/global/apac/mat,H0338.Hong Kong,SINOPEC Shanghai Petrochemical Co. Ltd.,2182,HKD,6.98
+52,10/9/2018 3:00 PM,/global/apac/mat,Tokyo.5541,Pacific Metals Co. Ltd.,1722,JPY,4288.6
