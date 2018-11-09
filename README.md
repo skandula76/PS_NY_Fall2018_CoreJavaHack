@@ -63,6 +63,6 @@ No new stocks (or holdings) would be added or removed to the portfolio during th
 Regions and Sectors are static
 A new file or multiple files might be dropped into a ‘landing folder’ and should be immediately processed and PnL should be reflected
 All times quoted are in EST (Single time-zone throughout the data sets)
-Files are provided in 1 hour increments and snapshotted respectively (no other intermediary time periods will be posted) – Only following could be posted (PREV_DAY, 7AM, 8AM, 9AM, 10AM, 11AM, 12PM, 13PM, 14PM, 15PM, 16PM, 17PM, 18PM, 19PM)
+Files are provided in 1 hour increments and snapshotted respectively (no other intermediary time periods will be posted) – Only following could be posted (PREV_DAY, 7AM, 8AM, 9AM, 10AM, 11AM, 12PM, 1PM, 2PM, 3PM, 4PM, 5PM, 6PM, 7PM)
 Files will be sequenced for ease of use but candidate can manually drop files in a sequence if needed (No penalties for manually dropping the files in the drop zone) during the Demo(s)
 No persistent data store is expected, module needs to be able to restart from “Start of the Day” if required by terminating all the appropriate daemons and restarting in necessary sequence
