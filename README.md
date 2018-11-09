@@ -3,21 +3,40 @@
 
 Problem Statement
 
-Build an intraday, near real-time, Daily Profit/Loss ‘PnL’ aggregation module as a standalone component for Global Equities Desk.
+Calculating daily Profit & Loss (‘PnL’) of portfolio of stocks is a key part amongst many processes that are typical for our clients.
+We want you to build an intra-day Profit/Loss ‘PnL’ calculation and aggregation (group of stocks) module as a standalone component for a hypothetical Global Equities (Stocks) Desk.
+The component should provide summarization of profit (or loss) across multiple groupings of stocks when market values (stock prices) change.
+Context and Business Domain
 
-Allows for easier access to multi-geographic, multi-sector portfolio aggregation with flexible handler to support real time changes to market values.
+A working application (Java Console based application) to be built which allows users of the ‘application’ to:
+•	Ability to query the system to determine the real-time PnL for a global equity portfolio.  
+•	Ability request PnL summary (‘sum’) on any subset of the portfolio, including for particular regions (e.g. North America) or sector (e.g. Finance).
 
-Hackathon Objectives
+The system receives a ‘bootstrap’ snapshot of the portfolio from the previous day’s close of business and uses that as a basis for all PnL calculations.  Throughout the ‘day’ (defined as multiple files) the system receives intra-day price updates and is be expected to process this information in real-time.
+PnL in a currency = PrevDay Value of Portfolio – Current Value of Portfolio
+Value of portfolio = Sum of all stock values
+Stock value = # of stocks of a particular company * stock price in a single currency
+Use Cases
+For the exercise the following high-level set of use cases need to be fulfilled:
+•	Ability to ingest ‘bootstrap’ portfolio information
+•	Ability to ingest real-time pricing updates throughout the day (multiple files)
+•	Calculate and show real-time PnL calculations for the portfolio
+•	Ability to handle prices in a variety of currencies and convert prices into the local currency (USD)
+•	Ability for the user to query PnL information on any level of the portfolio such as ‘Global’, ‘North America’, or ‘North America – Finance’
+•	Ability to display PnL data in text format 
+•	Ability to display PnL data as a line chart
 
-Objective 1 – Ingest ‘Bootstrap’ holdings data from End of the Previous Day			(50 points)
+Tools
 
-Objective 2 – Ingest real-time changes to stock prices ‘intra-day’ by processing mini-batch of files as they appear in a folder																	(150 points)
+The application should be developed using Java 8 or later.  You are free to use any IDE.
+A small set of utilities will be provided to assist with some of the tasks and to speed up the development:
+•	File Handler Utility – a file parser that will read the portfolio information
+•	Graphing Utility – displays a line chart provided data
+•	FX conversion utility – handles conversion between currencies
 
-Objective 3 - Calculate and Show ‘real-time’ PnL by the handle through an interactive command or visual interface, without restarting the file processing. Examples, but not limited to:
-															(150 points) – Calc / Command line
-															(150 points) – Visual and/or Time-sliced
-                              
-                              
+
+Hackathon Demo Steps:
+
 showPnL /global															
 showPnL /global/nam
 showPnL /global/apac
@@ -36,6 +55,7 @@ A graphing utility – A graphing utility code will be provided to show any time
 FX conversion utility – A static FX conversion utility code will be provided to convert prices or any derived values from one currency to another currency. It is candidate’s responsibility to leverage this code in any way helpful to incorporate into his/her module(s). No additional credits for building his/her own as this is a simple static conversion utility.
 
 Solution Assumptions:
+
 Stock holding amounts do not change from the previous day. If Holding amount is provided in the file, it can be ignored or processed, no changes to holding amounts
 Prices may not change at all during the day for a given set of stocks
 Prices will not be negative or zero
