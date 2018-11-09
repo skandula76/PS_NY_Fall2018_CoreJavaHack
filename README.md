@@ -1,12 +1,13 @@
 # Publicis.Sapient Fall2018 Core Java Hackathon
 
 
-Problem Statement
+# Problem Statement
 
 Calculating daily Profit & Loss (‘PnL’) of portfolio of stocks is a key part amongst many processes that are typical for our clients.
 We want you to build an intra-day Profit/Loss ‘PnL’ calculation and aggregation (group of stocks) module as a standalone component for a hypothetical Global Equities (Stocks) Desk.
 The component should provide summarization of profit (or loss) across multiple groupings of stocks when market values (stock prices) change.
-Context and Business Domain
+
+# Context and Business Domain
 
 A working application (Java Console based application) to be built which allows users of the ‘application’ to:
 •	Ability to query the system to determine the real-time PnL for a global equity portfolio.  
@@ -16,7 +17,8 @@ The system receives a ‘bootstrap’ snapshot of the portfolio from the previou
 PnL in a currency = PrevDay Value of Portfolio – Current Value of Portfolio
 Value of portfolio = Sum of all stock values
 Stock value = # of stocks of a particular company * stock price in a single currency
-Use Cases
+
+# Use Cases
 For the exercise the following high-level set of use cases need to be fulfilled:
 •	Ability to ingest ‘bootstrap’ portfolio information
 •	Ability to ingest real-time pricing updates throughout the day (multiple files)
@@ -26,7 +28,7 @@ For the exercise the following high-level set of use cases need to be fulfilled:
 •	Ability to display PnL data in text format 
 •	Ability to display PnL data as a line chart
 
-Tools
+# Tools
 
 The application should be developed using Java 8 or later.  You are free to use any IDE.
 A small set of utilities will be provided to assist with some of the tasks and to speed up the development:
@@ -35,7 +37,7 @@ A small set of utilities will be provided to assist with some of the tasks and t
 •	FX conversion utility – handles conversion between currencies
 
 
-Hackathon Demo Steps:
+# Hackathon Demo Steps:
 
 showPnL /global															
 showPnL /global/nam
@@ -45,7 +47,7 @@ showPnL /global/name/fin:BAC
 (Note: Candidate can come up with alternate command conventions (like parameter prefixes like –h, -s etc.,) as long as they are intuitive and not constricting)
 
 
-Utilities, Helper Classes & Solution Assumptions
+# Utilities, Helper Classes & Solution Assumptions
 
 
 File Handler Helper – A file handler class will be provided that parses bootstrap and any ‘real-time’ files into a structured value object(s). It is candidate’s responsibility to leverage this code in any way helpful to incorporate into his/her main module(s). Candidate can build a better one his/her own for additional credits.
@@ -54,7 +56,7 @@ A graphing utility – A graphing utility code will be provided to show any time
 
 FX conversion utility – A static FX conversion utility code will be provided to convert prices or any derived values from one currency to another currency. It is candidate’s responsibility to leverage this code in any way helpful to incorporate into his/her module(s). No additional credits for building his/her own as this is a simple static conversion utility.
 
-Solution Assumptions:
+# Solution Assumptions:
 
 Stock holding amounts do not change from the previous day. If Holding amount is provided in the file, it can be ignored or processed, no changes to holding amounts
 Prices may not change at all during the day for a given set of stocks
